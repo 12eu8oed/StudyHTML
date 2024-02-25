@@ -23,4 +23,6 @@ TIP 검색 엔진
 
 <div> , <span> 이란,  class 속성이 무엇인가요?
 
-ul ol li 태그
+ul ol li 태그란 목록형
+
+dl dt dd 정의형 목록 태그란

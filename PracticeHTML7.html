@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>블로그 글쓰기</legend>
+            <p>
+                <label for="title">제목
+                    <input type="text" id="title" name="title">
+                </label>
+            </p>
+            <p>
+                <label for="desc">내용
+                    <textarea id="desc" name="desc"></textarea>
+                </label>
+            </p>
+        </fieldset>
+    </form>
+
+    <select>
+        <optgroup label="그룹 이름">
+            <option value="서버에 전송할 값">웹 브라우저에 표시할 값</option>
+        </optgroup>
+    </select>
+
+    <select name="city" id="city">
+        <option value="강북구">강북구</option>
+        <option value="강남구">강남구</option>
+        <option value="서초구">서초구</option>
+        <option value="중원구">중원구</option>
+        <option value="분당구">분당구</option>
+    </select>
+
+    <select name="city" id="city" size="6" multiple>
+        <optgroup label="서울별로">
+            <option value="강북구">강북구</option>
+            <option value="강남구">강남구</option>
+            <option value="서초구">서초구</option>
+        </optgroup>
+        <optgroup label="경기도 성남시">
+            <option value="중원구">중원구</option>
+            <option value="분당구">분당구</option>
+        </optgroup>
+    </select>
+
+</body>
+
+</html>
